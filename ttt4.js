@@ -19,11 +19,11 @@ function toggleBox(name) {
 	var box = document.getElementById(name);
 	if(endsWith(box.src, "blank.png")) {
 		if(turn == 0) {
-			box.src = "x.png";
+			box.src = "newX.jpg";
 			turn = 1;
 			counter++;
 		} else { 
-			box.src = "o.png";
+			box.src = "newO.jpg";
 			turn = 0;
 			counter++;
 		}
